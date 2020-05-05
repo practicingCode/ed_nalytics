@@ -1,0 +1,78 @@
+/* https://webdesign-assistant.com */
+body{
+	font-family: verdana;
+	text-align: center;
+  background: #eee;
+	margin: 0;
+}
+#colorpicker-content{
+	text-align: left;
+	width: 270px;
+	margin: 29px auto;
+	padding: 9px;
+	/* border: 4.5px solid #333; */
+	border-radius: 18px;
+	background-color: hsla(0, 0%, 30%, 1);
+}
+#display-container{
+	background-image: url(https://webdesign-assistant.com/images/dummy/bg.png);
+	border-radius: 18px;
+}
+#color-display{
+	width: 255px;
+	height: 290px;
+	margin: 0 auto;
+	border: 4.5px solid #333;
+	border-radius: 9px;
+	background-color: hsla(0, 100%, 50%, 1);
+}
+#result{
+	width: 90%;
+	text-align: cente45
+	color: #fff;
+}
+label{
+	color: #fff;
+}
+.slider {
+	-webkit-appearance: none;
+	width: 90%;
+	height: 23px;
+	margin: 0 auto;
+	border: 1px solid #000;
+	border-radius: 11.5px;
+  cursor: pointer;
+}
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 21px;
+  height: 21px;
+	border: 1px solid #000;
+	border-radius: 50%;
+  background: #ccc;
+}
+
+.slider::-moz-range-thumb {
+  width: 21px;
+  height: 21px;
+	border: 1px solid #000;
+	border-radius: 50%;
+  background: #ccc;
+}
+#hue{
+	background-image: linear-gradient(to right, red, orange, yellow, green, rgb(0, 251, 255), blue, indigo, rgb(255, 0, 119), red);
+}
+#saturation{
+	background-image: linear-gradient(to right, hsl(0, 0%, 50%), red);
+}
+#saturation{
+	background-image: linear-gradient(to right, hsl(0, 0%, 50%), red);
+}
+#luminosity{
+	background-image: linear-gradient(to right, #000, #f00, #fff);
+}
+#alpha{
+	background-image: url(https://webdesign-assistant.com/images/dummy/bg-alpha.png);
+	background-color: #f00;
+}
